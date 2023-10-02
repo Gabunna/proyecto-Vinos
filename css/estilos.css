@@ -158,7 +158,9 @@ button {
 button:hover {
     background-color: #001F3F;
 }
-
+button:active {
+    background-color: rgb(90, 116, 232);
+}
 footer {
     background-color: #001F3F;
     color: #fff;
@@ -174,5 +176,11 @@ footer {
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
     color: #F5F5F5;
+}
+.botton:hover {
+    background-color: darkorange;
+}
+.botton:active {
+    background-color:rgb(243, 31, 144);
 }
 
