@@ -107,6 +107,7 @@ footer {
     margin-bottom: 20px;
     padding: 20px;
     background-color: #F5F5F5;
+   
 }
 
 .texto {
@@ -183,4 +184,21 @@ footer {
 .botton:active {
     background-color:rgb(243, 31, 144);
 }
+
+.grid-container {
+    display: grid;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-top: 0%;
+    justify-content: center;
+   
+    }
+    .descubre {
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 40px;
+        
+
+    }
 
