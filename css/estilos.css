@@ -21,9 +21,9 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
-    
-   
-    
+
+
+
 }
 
 .contact-info p {
@@ -107,7 +107,7 @@ footer {
     margin-bottom: 20px;
     padding: 20px;
     background-color: #F5F5F5;
-   
+
 }
 
 .texto {
@@ -159,9 +159,11 @@ button {
 button:hover {
     background-color: #001F3F;
 }
+
 button:active {
     background-color: rgb(90, 116, 232);
 }
+
 footer {
     background-color: #001F3F;
     color: #fff;
@@ -171,18 +173,20 @@ footer {
 
 .botton {
     display: inline;
-    background-color:#678bb2;
+    background-color: #678bb2;
     text-decoration: none;
-    text-align:right;
+    text-align: right;
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
     color: #F5F5F5;
 }
+
 .botton:hover {
     background-color: darkorange;
 }
+
 .botton:active {
-    background-color:rgb(243, 31, 144);
+    background-color: rgb(243, 31, 144);
 }
 
 .grid-container {
@@ -193,12 +197,44 @@ footer {
     height: 100%;
     padding-top: 0%;
     justify-content: center;
-   
-    }
-    .descubre {
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 40px;
-        
 
-    }
+}
 
+.descubre {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-boton {
+    background-color: rgb(100, 86, 86);
+    color: #f5f5f5;
+    padding: 5px 10px;
+    border: 2px solid black;
+    display: none;
+    font-size: x-large;
+    }
+    
+
+
+@media (max-width: 600px){
+    .enlace {
+        flex-direction: column;
+         }
+         .nav-boton {
+            display: inline-block;
+         }
+         .grid-container {
+            justify-content: center;
+         }
+         .texto {
+            justify-content: center;
+            align-content: flex-start;
+         }
+         
+
+}
