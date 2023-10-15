@@ -195,11 +195,14 @@ footer {
     justify-content: center;
 
 }
+video{
+    max-width: 100%;
+}
 
-.descubre {
+/*.descubre {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 40px;
-}
+}*/
 
 .mapa {
     display: flex;
@@ -248,9 +251,11 @@ footer {
          .desaparece {
             display: none; 
          }
-         
-
+         .catalogo {
+            justify-content: space-around;
+         }
 }
+
 @media (max-width: 500px) {
     .grid-caja {
         flex-direction: column;
