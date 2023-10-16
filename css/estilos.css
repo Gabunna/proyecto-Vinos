@@ -128,7 +128,7 @@ footer {
     background-color: #001F3F;
     color: #fff;
     padding: 20px;
-    /* Estilos específicos para el formulario */
+    
 }
 
 form {
@@ -221,8 +221,21 @@ video{
     display: none;
     font-size: x-large;
     }
-    
 
+    .social-icons {
+  text-align: center;
+  color: #fff;
+  padding-top: 10px;
+  
+}
+a{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+a:hover{
+    color: #4e5253;
+}
 
 @media (max-width: 600px){
     .enlace {
