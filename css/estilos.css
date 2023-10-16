@@ -222,8 +222,8 @@ video{
     
     
     .botones {
-        background-color: rgb(97, 99, 233);
-        color: black;
+        background-color: rgb(17, 18, 87);
+        color:#f5f5f5;
         padding: 10px;
         border: 2px solid black;
         display: none;
