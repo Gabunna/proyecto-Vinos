@@ -1,17 +1,19 @@
-
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="stylesheet" href="../css/estilos.css">
+    <script src="../java-js/proyectos.js"></script>
 </head>
+
 <body>
     <header>
         <div class="top-bar">
-           
-            
+          
+
         </div>
         <h1>Almacen de Vinos Argentinos </h1>
         <nav>
@@ -19,39 +21,41 @@
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="catalogo.html">Catálogo</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="NuestrosLocales.html">Nuestros Locales</a></li>
+                <li><a href="NuestroLocal.html">Nuestro Local</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-       
+        <section class="formulario">
 
-    <section class="formulario">
-        <button class="nav-boton" onclick="accion()">Menu</button>
-        <form class="enlace">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
+            <form>
+                <button class="botones" onclick="accion()"> Click para ver Menú</button>
+                <label for="nombre" class="bton desaparece">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" class="bton desaparece">
 
-            <label for="nombre">Apellido:</label>
-            <input type="text" id="apellido" name="apellido" required>
+                <label for="apellido" class="bton desaparece">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" class="bton desaparece">
 
-            <label for="email">Correo Electrónico:</label>
-            <input type="email" id="email" name="email" required>
+                <label for="email" class="bton desaparece">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" class="bton desaparece">
 
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
 
-            <button type="submit">Enviar</button>
-            <div class="grid-container"> 
-                <p class="grid-container">Dirección: Rodríguez Peña 1886, C1021 ABN, Buenos Aires, Argentina</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13138.357840608438!2d-58.3874077!3d-34.5892531!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccabb34e6d97d%3A0x72aa04d60beb6a1b!2sGrand%20Cru%20Argentina!5e0!3m2!1ses!2ses!4v1696932611133!5m2!1ses!2ses" width="900" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            
-        </form>
-    </section>
+                <button type="submit">Enviar</button>
+                <div class="grid-container">
+                    <p class="grid-container">Dirección: Rodríguez Peña 1886, C1021 ABN, Buenos Aires, Argentina</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13138.357840608438!2d-58.3874077!3d-34.5892531!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccabb34e6d97d%3A0x72aa04d60beb6a1b!2sGrand%20Cru%20Argentina!5e0!3m2!1ses!2ses!4v1696932611133!5m2!1ses!2ses"
+                        width="900" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
 
-        
+            </form>
+        </section>
+
+
     </main>
     <div>
         <a href="../index.html" class="botton">Volver</a>
@@ -60,13 +64,13 @@
 
     <footer>
         <div class="social-icons">
-            <a href="#"><img src="img/face.ico" alt="Facebook" />Facebook</a>
-            <a href="#"><img src="img/tw.ico" alt="Twitter" />Twitter</a>
-            <a href="#"><img src="img/inst.ico" alt="Instagram" />Instagram</a>
+            <a href="#"><img src="../img/face.ico" alt="Facebook" />Facebook</a>
+            <a href="#"><img src="../img/tw.ico" alt="Twitter" />Twitter</a>
+            <a href="#"><img src="../img/inst.ico" alt="Instagram" />Instagram</a>
           </div>
-
         <p>&copy; 2023 Almacen de Vinos Argentinos</p>
         <p>Beber con moderación. Prohibida su venta a menores de 18 años.</p>
     </footer>
 </body>
+
 </html>
