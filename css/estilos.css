@@ -44,10 +44,18 @@ main {
   padding: 20px;
 }
 
+.botonTipo{
+  cursor: pointer; 
+}
+.botonTipo:hover{
+  background-color: #001f3f;
+  color:#4e5253;
+}
+
 .catalogo {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
@@ -56,14 +64,15 @@ main {
   margin: 20px 10px;
   text-align: center;
   background-image: url(../img/fondo.jpg);
-  padding: 20px;
-
+  /*padding: 20px;*/
+  max-width: 300px;
+  justify-content: space-around;
 }
 
 .producto img {
     max-width: 100%;
-    height: auto;
-    padding: 10px;
+    /*height: 300px;
+    padding: 10px;*/
 }
 
 
@@ -110,9 +119,7 @@ footer {
   background-color: white;
 }
 
-.texto {
-  background-color: white;
-}
+
 
 .formulario {
   background-color: #001f3f;
