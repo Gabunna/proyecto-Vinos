@@ -52,13 +52,16 @@ main {
   text-align: center;
   background-image: url(../img/fondo.jpg);
   padding: 20px;
+
 }
 
 .producto img {
   max-width: 500px;
   height: 600px;
   padding: 20px;
+
 }
+
 
 .precio {
   font-weight: bold;
@@ -273,3 +276,13 @@ video {
     align-self: center;
 
   }
+
+    .botones {
+        background-color: rgb(17, 18, 87);
+        color:#f5f5f5;
+        padding: 10px;
+        border: 2px solid black;
+        display: none;
+    
+    }
+    
