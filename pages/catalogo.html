@@ -20,78 +20,28 @@
                 <li><a href="NuestroLocal.html">Nuestro Local</a></li>
             </ul>
         </nav>
-           
+        <nav>
+            <ul>
+                <li class="botonTipo" onclick="filtroTipo('tinto')">Tinto</li>
+                <li class="botonTipo" onclick="filtroTipo('blanco')">Blanco</li>
+                <li class="botonTipo" onclick="filtroTipo('espumante')">Espumante</li>
+            </ul>
+        </nav>   
     </header>
     
-<div class="grid-caja">
-    <section class="catalogo">
-        <article class="producto">
-            <img src="../img/vino-tinto1.jpg" alt="Vino 1">
-            <h2>Vino Tinto cabernet sauvignon</h2>
-            <p>Los vinos de cabernet sauvignon se reconocen por su carácter marcado y sus aromas de casis y cerezas maduras,<br> notas de caja de puros y mina de lápiz con el tiempo, especias y mentolados.</p>
-            <p class="precio">$3320</p>
-            <button>Añadir al carrito</button>
-        </article>
 
-        <article class="producto">
-            <img src="../img/vino-tinto2.jpg" alt="Vino 2">
-            <h2>Vino tinto cabernet sauvignon</h2>
-            <p>Descripción del vino blanco seco. </p>
-            <p class="precio">$1800.00</p>
-            <button>Añadir al carrito</button>
-        </article>
-
-         <article class="producto">
-            <img src="../img/vino-tinto3.jpg" alt="Vino 2">
-            <h2>Vino Blanco Seco</h2>
-            <p>Descripción del vino blanco seco. </p>
-            <p class="precio">$1800.00</p>
-            <button>Añadir al carrito</button>
-        </article>
-
-        <article class="producto">
-            <img src="../img/vino-tinto4.jpg" alt="Vino 2">
-            <h2>Vino Blanco Seco</h2>
-            <p>Descripción del vino blanco seco. </p>
-            <p class="precio">$1800.00</p>
-            <button>Añadir al carrito</button>
-        </article>
-       
-    </section>
-
-    <section class="catalogo">
-        <article class="producto">
+    <section class="catalogo" id="catalogoDeProductos">
+        
+        <!--<article class="producto">
             <img src="../img/vino1.jpg" alt="Vino 1">
             <h2>Vino Tinto Reserva</h2>
             <p>Descripción del vino tinto reserva.</p>
             <p class="precio">$2000.00</p>
             <button>Añadir al carrito</button>
-        </article>
+        </article>-->
 
-        <article class="producto">
-            <img src="../img/vino2.jpg" alt="Vino 2">
-            <h2>Vino Blanco Seco</h2>
-            <p>Descripción del vino blanco seco. </p>
-            <p class="precio">$1800.00</p>
-            <button>Añadir al carrito</button>
-        </article>
 
-         <article class="producto">
-            <img src="../img/vino2.jpg" alt="Vino 2">
-            <h2>Vino Blanco Seco</h2>
-            <p>Descripción del vino blanco seco. </p>
-            <p class="precio">$1800.00</p>
-            <button>Añadir al carrito</button>
-        </article>
 
-        <article class="producto">
-            <img src="../img/vino2.jpg" alt="Vino 2">
-            <h2>Vino Blanco Seco</h2>
-            <p>Descripción del vino blanco seco. </p>
-            <p class="precio">$1800.00</p>
-            <button>Añadir al carrito</button>
-        </article>
-        
     </section>
 </div>
     <div>
@@ -107,5 +57,8 @@
         <p>&copy; 2023 Almacen de Vinos Argentinos</p>
         <p>Beber con moderación. Prohibida su venta a menores de 18 años.</p>
     </footer>
+
+    <script src="../js/data.js"></script>
+    <script src="../js/catalogojsvanilla.js"></script>
 </body>
 </html>
