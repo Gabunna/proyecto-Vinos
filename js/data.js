@@ -5,7 +5,7 @@ const listaDeArticulosJSON = [
         "foto": "vino-bco1.jpg",
         "tipo": "blanco",
         "descripcion": "descripción del vino",
-        "precio": 1000
+        "precio": 2790
     },
     {
         "_id": 2,
@@ -13,7 +13,7 @@ const listaDeArticulosJSON = [
         "foto": "vino-bco2.jpg",
         "tipo": "blanco",
         "descripcion": "descripción del vino",
-        "precio": 1000
+        "precio": 3200
     },
     {
         "_id": 3,
@@ -21,7 +21,7 @@ const listaDeArticulosJSON = [
         "foto": "vino-bco3.jpg",
         "tipo": "blanco",
         "descripcion": "descripción del vino",
-        "precio": 1000
+        "precio": 2900
     },
     {
         "_id": 4,
@@ -29,7 +29,7 @@ const listaDeArticulosJSON = [
         "foto": "vino-bco4.jpg",
         "tipo": "blanco",
         "descripcion": "descripción del vino",
-        "precio": 1000
+        "precio": 2890
     },
     {
         "_id": 5,
@@ -37,7 +37,7 @@ const listaDeArticulosJSON = [
         "foto": "vino-tinto1.jpg",
         "tipo": "tinto",
         "descripcion": "descripción del vino",
-        "precio": 1000
+        "precio": 3250
     },
     {
         "_id": 6,
@@ -45,7 +45,7 @@ const listaDeArticulosJSON = [
         "foto": "vino-tinto2.jpg",
         "tipo": "tinto",
         "descripcion": "descripción del vino",
-        "precio": 1000
+        "precio": 3700
     },
     {
         "_id": 7,
@@ -53,7 +53,7 @@ const listaDeArticulosJSON = [
         "foto": "vino-tinto3.jpg",
         "tipo": "tinto",
         "descripcion": "descripción del vino",
-        "precio": 1000
+        "precio": 3300
     },
     {
         "_id": 8,
@@ -61,7 +61,7 @@ const listaDeArticulosJSON = [
         "foto": "vino-tinto4.jpg",
         "tipo": "tinto",
         "descripcion": "descripción del vino",
-        "precio": 1000
+        "precio": 2700
     },
     {
         "_id": 9,
@@ -69,7 +69,41 @@ const listaDeArticulosJSON = [
         "foto": "espumante1.jpg",
         "tipo": "espumante",
         "descripcion": "descripción espumante",
-        "precio": 1000
-    }
+        "precio": 3380
+    },
+    {
+        "_id": 10,
+        "nombre": "Fin del mundo Brut",
+        "foto": "finMundo.jpg",
+        "tipo": "espumante",
+        "descripcion": "descripción espumante",
+        "precio": 5150
+    },
+    {
+        "_id": 11,
+        "nombre": "Espumante Cuve Brut",
+        "foto": "cuveeBrut.jpg",
+        "tipo": "espumante",
+        "descripcion": "descripción espumante",
+        "precio": 3600
+    },
+    {
+        "_id": 12,
+        "nombre": "Espumante La poderosa",
+        "foto": "la-poderosa.jpg",
+        "tipo": "espumante",
+        "descripcion": "descripción espumante",
+        "precio": 3309
+    },
+    {
+        "_id": 13,
+        "nombre": "Cosecha temprana",
+        "foto": "coseTemprana.jpg",
+        "tipo": "espumante",
+        "descripcion": "descripción espumante",
+        "precio": 4500
+    },
+    
+
     
 ];
