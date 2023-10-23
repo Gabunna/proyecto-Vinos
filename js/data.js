@@ -5,7 +5,8 @@ const listaDeArticulosJSON = [
         "foto": "vino-bco1.jpg",
         "tipo": "blanco",
         "descripcion": "descripción del vino",
-        "precio": 2790
+        "precio": 2790,
+        "recomendado": false
     },
     {
         "_id": 2,
@@ -13,7 +14,8 @@ const listaDeArticulosJSON = [
         "foto": "vino-bco2.jpg",
         "tipo": "blanco",
         "descripcion": "descripción del vino",
-        "precio": 3200
+        "precio": 3200,
+        "recomendado": false
     },
     {
         "_id": 3,
@@ -21,7 +23,8 @@ const listaDeArticulosJSON = [
         "foto": "vino-bco3.jpg",
         "tipo": "blanco",
         "descripcion": "descripción del vino",
-        "precio": 2900
+        "precio": 2900,
+        "recomendado": false
     },
     {
         "_id": 4,
@@ -29,7 +32,8 @@ const listaDeArticulosJSON = [
         "foto": "vino-bco4.jpg",
         "tipo": "blanco",
         "descripcion": "descripción del vino",
-        "precio": 2890
+        "precio": 2890,
+        "recomendado": false
     },
     {
         "_id": 5,
@@ -37,7 +41,8 @@ const listaDeArticulosJSON = [
         "foto": "vino-tinto1.jpg",
         "tipo": "tinto",
         "descripcion": "descripción del vino",
-        "precio": 3250
+        "precio": 3250,
+        "recomendado": false
     },
     {
         "_id": 6,
@@ -45,7 +50,8 @@ const listaDeArticulosJSON = [
         "foto": "vino-tinto2.jpg",
         "tipo": "tinto",
         "descripcion": "descripción del vino",
-        "precio": 3700
+        "precio": 3700,
+        "recomendado": false
     },
     {
         "_id": 7,
@@ -53,7 +59,8 @@ const listaDeArticulosJSON = [
         "foto": "vino-tinto3.jpg",
         "tipo": "tinto",
         "descripcion": "descripción del vino",
-        "precio": 3300
+        "precio": 3300,
+        "recomendado": false
     },
     {
         "_id": 8,
@@ -61,7 +68,8 @@ const listaDeArticulosJSON = [
         "foto": "vino-tinto4.jpg",
         "tipo": "tinto",
         "descripcion": "descripción del vino",
-        "precio": 2700
+        "precio": 2700,
+        "recomendado": false
     },
     {
         "_id": 9,
@@ -69,7 +77,8 @@ const listaDeArticulosJSON = [
         "foto": "espumante1.jpg",
         "tipo": "espumante",
         "descripcion": "descripción espumante",
-        "precio": 3380
+        "precio": 3380,
+        "recomendado": false
     },
     {
         "_id": 10,
@@ -77,7 +86,8 @@ const listaDeArticulosJSON = [
         "foto": "finMundo.jpg",
         "tipo": "espumante",
         "descripcion": "descripción espumante",
-        "precio": 5150
+        "precio": 5150,
+        "recomendado": false
     },
     {
         "_id": 11,
@@ -85,7 +95,8 @@ const listaDeArticulosJSON = [
         "foto": "cuveeBrut.jpg",
         "tipo": "espumante",
         "descripcion": "descripción espumante",
-        "precio": 3600
+        "precio": 3600,
+        "recomendado": false
     },
     {
         "_id": 12,
@@ -93,7 +104,8 @@ const listaDeArticulosJSON = [
         "foto": "la-poderosa.jpg",
         "tipo": "espumante",
         "descripcion": "descripción espumante",
-        "precio": 3309
+        "precio": 3309,
+        "recomendado": false
     },
     {
         "_id": 13,
@@ -101,7 +113,8 @@ const listaDeArticulosJSON = [
         "foto": "coseTemprana.jpg",
         "tipo": "espumante",
         "descripcion": "descripción espumante",
-        "precio": 4500
+        "precio": 4500,
+        "recomendado": false
     },
     
 

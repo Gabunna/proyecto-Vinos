@@ -67,6 +67,7 @@ main {
 
 .producto {
   margin: 20px 10px;
+  padding: 10px;
   text-align: center;
   background-image: url(../img/fondo.jpg);
   max-width: 300px;
@@ -109,8 +110,8 @@ footer {
   flex-direction: column;
   text-align: center;
   /*border: 1px solid #9A031E;*/
-  margin-bottom: 20px;
-  padding: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
   background-color: #f5f5f5;
 }
 
