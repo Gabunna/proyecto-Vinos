@@ -52,8 +52,18 @@
       </div>
     </div>
     <div class="grid-caja">
-      <section class="catalogo">
-        <article class="producto">
+      
+      <section class="catalogo" id="app">
+
+        <article class="producto" v-for="art in listaRecomendados">
+          <img :src="`img/${art.foto}`" :alt="art.nombre">
+          <h2>{{art.nombre}}</h2>
+          <p>{{art.descripcion}}</p>
+          <p class="precio" >$ {{art.precio}}</p>
+          <button>Añadir al carrito</button>
+        </article>
+
+        <!--<article class="producto"> // reemplazado por filtro VUEJS
           <img src="img/vino-blanco2.jpg" alt="Vino 4" />
           <h2>Vino blanco Chardonnay</h2>
           <p>El vino queda cubierto por el velo durante 10 meses en barriles viejos.</p> <br>
@@ -83,22 +93,9 @@
 
           <p class="precio">$18.700</p>
           <button>Añadir al carrito</button>
-        </article>
+        </article>-->
 
-        <article class="producto">
-          <img src="img/vino-bco1.jpg" alt="Vino 2" />
-          <h2>Vino Blanco Sauvignon</h2>
-          <p>Este vino se destaca por la elegancia e intensidad de sus aromas. En boca es directo, refrescante y
-            sabroso, con notas herbales y especiadas, acidez cítrica y cierto volumen obtenido de su contacto con las
-            borras de fermentación .</p>
-          <p>
-            Tipo de Vino: Blanco, Pais: Argentina, Origen: Valle de Uco, Uva: Sauvignon Blanc, Crianza: 8 meses,
-            Cosecha: 2018.
-          </p>
-          <p class="precio">$11.000</p>
-          <button>Añadir al carrito</button>
-        </article>
-
+      
       </section>
     </div>
   </main>
@@ -112,6 +109,10 @@
     <p>&copy; 2023 Almacen de Vinos Argentinos</p>
     <p>Beber con moderación. Prohibida su venta a menores de 18 años.</p>
   </footer>
+
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/recomendadosVue.js"></script>
 </body>
 
 </html>

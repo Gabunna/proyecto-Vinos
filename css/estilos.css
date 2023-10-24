@@ -11,6 +11,7 @@ body {
   height: auto;
 }
 
+
 header {
   background-color: #001f3f;
   color: #fff;
@@ -29,9 +30,6 @@ header {
   font-size: 14px;
 }
 
-/*nav ul {
-    list-style: none;
-}*/
 
 nav li {
   display: inline;
@@ -61,8 +59,6 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-
-
 }
 
 .producto {
@@ -119,10 +115,10 @@ footer {
   background-color: #f5f5f5;
 }
 
-.bodegas {
+/*.bodegas {
   text-align: center;
   background-color: white;
-}
+}*/
 
 
 
@@ -206,11 +202,6 @@ footer {
 video {
   max-width: 100%;
 }
-
-/*.descubre {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 40px;
-}*/
 
 .mapa {
   display: flex;
