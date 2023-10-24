@@ -128,7 +128,7 @@ const listaDeArticulosJSON = [
     {
         "_id": 15,
         "nombre": "Lui",
-        "foto": "luibrut.jpg",
+        "foto": "lui.jpg",
         "tipo": "espumante",
         "descripcion": "Brut Nature Pinot Noir",
         "precio": 4500,
