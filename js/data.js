@@ -42,7 +42,7 @@ const listaDeArticulosJSON = [
         "tipo": "tinto",
         "descripcion": "Cabernet Franc, Gualtallary",
         "precio": 3250,
-        "recomendado": false
+        "recomendado": true
     },
     {
         "_id": 6,
