@@ -179,16 +179,14 @@ video {
   color: white;
   background-color: #001F3F;
   position: relative;
-  animation-name: example;
+  animation-name: recomen;
   animation-duration: 5s;
   animation-iteration-count: infinite;
 }
 
-@keyframes example {
+@keyframes recomen {
   0%   {background-color:#001F3F; left:-150px; top:0px;}
-  /*25%  {background-color:#001F3F; left:150px; top:0px;}*/
   50%  {background-color:#001F3F; left:150px; top:0px;}
-  /*75%  {background-color:#001F3F; left:-150px; top:0px;}*/
   100% {background-color:#001F3F; left:-150px; top:0px;}
 }
 
