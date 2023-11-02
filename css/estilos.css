@@ -60,7 +60,9 @@ main {
   margin: 20px 10px;
   padding: 10px;
   text-align: center;
-  background-image: url(../img/fondo.jpg);
+  /*background-image: radial-gradient( circle farthest-corner at -4.5% 34.3%,  rgba(13,20,174,1) 0%, rgba(243,165,140,1) 90% );*/
+  /*background-image: linear-gradient( 270.3deg,  rgba(84,212,228,1) 0.2%, rgba(68,36,164,1) 100% );*/
+  background-color: rgb(165, 178, 203);
   max-width: 300px;
   justify-content: space-around;
 }
@@ -103,9 +105,8 @@ footer {
   display: flex;
   flex-direction: column;
   text-align: center;
-  /*border: 1px solid #9A031E;*/
-  margin-bottom: 10px;
-  padding: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
   background-color: #f5f5f5;
 }
 
@@ -166,9 +167,11 @@ textarea {
   position: relative;
   width: 100%;
   height: 100%;
-  padding-top:0%;
+  padding-top:2%;
   justify-content: center;
+  
 }
+
 
 video {
   max-width: 100%;
@@ -264,9 +267,10 @@ video {
   }
   .NuestroLocal{
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     justify-self: center;
     align-self: center;
+    color: #f5f5f5;
 
   }
 
