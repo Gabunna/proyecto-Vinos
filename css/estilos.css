@@ -55,13 +55,17 @@ main {
 
 .producto {
   margin: 20px 10px;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
   /*background-image: radial-gradient( circle farthest-corner at -4.5% 34.3%,  rgba(13,20,174,1) 0%, rgba(243,165,140,1) 90% );*/
   /*background-image: linear-gradient( 270.3deg,  rgba(84,212,228,1) 0.2%, rgba(68,36,164,1) 100% );*/
   background-color: rgb(165, 178, 203);
   max-width: 300px;
   justify-content: space-around;
+}
+.producto:hover {
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  transform: scale(1.1);
 }
 
 .producto img {
@@ -283,9 +287,26 @@ a:hover {
   padding: 10px;
   border: 2px solid black;
   display: none;
-
 }
 
-h2{
+h2 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+/*prueba moto*/
+.moto {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  display: inline-block;
+
+  animation: mover-moto 3s linear infinite;
+}
+
+@keyframes mover-moto {
+  0% {
+    left: -100px;
+  }
+  100% {
+    left: calc(15% - 100px);
+  }
 }
