@@ -35,7 +35,7 @@ nav a {
 
 main {
   max-width: 1400px;
-  margin: 0 auto;
+  margin: auto;
   padding: 20px;
 }
 
@@ -55,7 +55,7 @@ main {
 
 .producto {
   margin: 20px 10px;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   /*background-image: radial-gradient( circle farthest-corner at -4.5% 34.3%,  rgba(13,20,174,1) 0%, rgba(243,165,140,1) 90% );*/
   /*background-image: linear-gradient( 270.3deg,  rgba(84,212,228,1) 0.2%, rgba(68,36,164,1) 100% );*/
@@ -271,7 +271,7 @@ a:hover {
   color: #4e5253;
 }
 .NuestroLocal {
-  margin: 20px; /*1*/
+  margin: auto; /*1*/
   color: black; /*2*/
   background-color: rgb(165, 178, 203); /*3*/
   text-align: center;
